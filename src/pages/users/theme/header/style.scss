@@ -1,0 +1,176 @@
+@use "sass:map";
+@import "style/pages/theme";
+
+
+.header {
+    display: flex;
+    gap: 290px;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+
+.logo {
+    background-color: none;
+    margin-left: 20px;
+    line-height: 45px;
+}
+
+.nav {
+    width: 481px;
+    height: 25px;
+    line-height: 45px;
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    font-size: var(--font);
+    color: #8B8B8B;
+}
+
+.btn {
+    margin-top: 5px;
+    width: 100px;
+    height: 40.36px;
+    margin-left: -240px;
+    background-color: #FF64AE;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 12px 17px #FFEDF6;
+    border-radius: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// .header__top {
+//     background: #f5f5f5;
+// }
+
+// .header__bootom {
+//     background: #c03131;
+
+// }
+
+// .header__top_left {
+//     ul {
+//         display: flex;
+//         align-items: center;
+//         padding: 10px 0 13px;
+//         list-style: none;
+//         column-gap: 20px;
+
+//         li {
+//             font-size: 14px;
+//             color: map.get($theme-colors, "text");
+//             display: flex;
+//             align-items: center;
+//             column-gap: 2px;
+//         }
+
+//         li:first-child {
+//             position: relative;
+
+//             &:after {
+//                 position: absolute;
+//                 right: -5px;
+//                 top: 1px;
+//                 height: 20px;
+//                 width: 1px;
+//                 background: #000000;
+//                 opacity: 0.1;
+//                 content: "";
+//             }
+
+//         }
+
+//     }
+
+// }
+
+// .header__top_right {
+//     display: flex;
+//     //justify-content: end;
+//     align-items: center;
+//     padding: 10px 0 13px;
+
+
+//     ul {
+//         display: flex;
+//         column-gap: 10px;
+//         list-style: none;
+//         margin: 0 auto;
+
+
+
+//         a {
+//             font-size: 14px;
+//             display: inline-block;
+//             color: map.get($theme-colors, "text");
+//             text-decoration: none;
+//         }
+
+//         li:last-child {
+//             cursor: pointer;
+//             margin-left: 10px;
+
+//             span {
+//                 font-size: 14px;
+//                 margin-left: 2px;
+//             }
+
+//         }
+//     }
+// }
+
+// .nva {
+//     //display: flex;
+//     align-items: center;
+//     background: #c03131;
+//     cursor: pointer;
+
+// }
+
+// .logo {
+//     font-size: 20px;
+//     font-weight: bold;
+// }
+
+// .nva_right {
+//     display: flex;
+//     align-items: center;
+
+
+//     ul {
+//         display: inline-block;
+//         column-gap: 40px;
+//         list-style: none;
+//         align-items: center;
+
+//     }
+
+//     li {
+
+//         font-size: 16px;
+//         font-weight: bold;
+//         color: map.get($theme-colors, "text");
+//         display: inline-block;
+//         align-items: center;
+//         padding: 20px;
+//         column-gap: 30px;
+
+//     }
+// }

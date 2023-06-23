@@ -1,0 +1,183 @@
+.section-about {
+    height: 795px;
+    padding: 50px 0 0 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+
+    .titlle-about {
+        width: 732px;
+        height: 197px;
+
+        .title-about_1 {
+            color: #FF64AE;
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 125%;
+        }
+
+        .title-about_2 {
+            width: 732px;
+            height: 97px;
+            color: #091156;
+            font-size: 36px;
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 125%;
+
+        }
+
+        .title-about_3 {
+            width: 680px;
+            height: 56px;
+            color: #8B8B8B;
+            font-size: 16px;
+            font-family: Poppins;
+            letter-spacing: 1.6px;
+
+
+        }
+
+
+    }
+
+    .play-btn {
+        height: 540px;
+        margin-left: -75px;
+        border-radius: 50px;
+        background: url(./Image/play-about.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 25px 50px 25px #F6F7FF;
+        position: relative;
+        z-index: 1;
+
+        .playbtn {
+            width: 88px;
+            height: 88px;
+            margin-left: 526px;
+            margin-top: 226px;
+
+            &:hover {
+                width: 118px;
+                height: 118px;
+            }
+        }
+    }
+}
+
+.section-teams {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-image: url(./Image/BG-Section-team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -320px;
+
+    .section-teams_1 {
+        padding-top: 400px;
+        color: #FF64AE;
+        text-align: center;
+        font-size: 16px;
+        font-family: Poppins;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .section-teams_2 {
+        color: #091156;
+        text-align: center;
+        font-size: 36px;
+        font-family: Poppins;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+
+    .section-teams_3 {
+        color: #8B8B8B;
+        text-align: center;
+        font-size: 16px;
+        font-family: Poppins;
+        letter-spacing: 1.6px;
+    }
+
+    .section-teams_bottom {
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+
+        .section-teams_bottom_box {
+
+            width: 380px;
+            height: 626px;
+            border-radius: 42px;
+            background: #FFF;
+            box-shadow: 0px 25px 50px 25px #e1e3f0;
+
+            .section-teams_bottom_box_1 {
+                width: 146px;
+                height: 146px;
+
+                img {
+                    margin: 91px 89px 0 89px
+                }
+            }
+
+            .section-teams_bottom_box-2 {
+                padding-top: 150px;
+                color: #FF64AE;
+                font-size: 16px;
+                font-family: Poppins;
+                font-weight: 600;
+                line-height: 125%;
+                text-align: center;
+            }
+
+            .section-teams_bottom_box_3 {
+                padding-top: 50px;
+
+                height: 37px;
+                color: #091156;
+                text-align: center;
+                font-size: 18px;
+                font-family: Poppins;
+                font-weight: 600;
+                line-height: 125%;
+            }
+
+            .section-teams_bottom_box_4 {
+                width: 250px;
+                height: 93px;
+                color: #8B8B8B;
+                margin: 0 auto;
+                font-size: 14px;
+                font-family: Poppins;
+                text-align: center;
+                letter-spacing: 1.4px;
+            }
+
+            .section-teams_button {
+                display: flex;
+                align-items: center;
+                border: none;
+                gap: 75px;
+                padding-top: 50px;
+                color: #FF64AE;
+                background: none;
+                margin: 0 auto;
+
+                img {
+                    padding-left: 10px;
+
+                }
+            }
+        }
+    }
+
+}

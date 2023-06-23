@@ -1,0 +1,64 @@
+.section-our-services {
+    width: 1263px;
+    height: 853px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: url(./img/BG-service.png);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+
+    .section-our-services_1 {
+        color: #FF64AE;
+        text-align: center;
+        font-size: 16px;
+        font-family: Poppins;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+    .section-our-services_2 {
+        padding: 15px;
+        color: #091156;
+        text-align: center;
+        font-size: 36px;
+        font-family: Poppins;
+        font-weight: 600;
+        line-height: 125%;
+    }
+
+
+    .section-our-services_3 {
+        padding: 15px;
+        color: #8B8B8B;
+        text-align: center;
+        font-size: 16px;
+        font-family: Poppins;
+        letter-spacing: 1.6px;
+        padding-bottom: 60px;
+    }
+
+    .flex-container {
+        display: flex;
+        width: 1000PX;
+        height: 277px;
+        margin:0 auto;
+
+        img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .flex-container_1 {
+           
+            margin: 20px;
+        }
+
+        .flex-container_2 {
+            
+            margin: 20px;
+        }
+    }
+}
