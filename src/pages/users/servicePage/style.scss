@@ -43,7 +43,7 @@
         display: flex;
         width: 1000PX;
         height: 277px;
-        margin:0 auto;
+        margin: 0 auto;
 
         img {
             width: 100%;
@@ -52,13 +52,79 @@
         }
 
         .flex-container_1 {
-           
+
             margin: 20px;
         }
 
         .flex-container_2 {
-            
+
             margin: 20px;
         }
     }
+}
+
+.section-beauty {
+    display: flex;
+    width: 1000px;
+    height: 314px;
+    // background-color: #09b74f;
+    margin: 0 auto;
+
+    .section-beauty_left {
+        width: 475px;
+        height: 314px;
+        background-image: url(./img/Vector-service.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        img {
+            width: 70%;
+            height: 80%;
+        }
+    }
+
+    .section-beauty_right {
+        width: 465px;
+        padding: 10px;
+
+        .section-beauty_right_1 {
+            color: #FF64AE;
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 125%;
+        }
+
+        .section-beauty_right_2 {
+            padding-top: 10px;
+            color: #091156;
+            font-size: 36px;
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 125%;
+        }
+
+        .section-beauty_right_3 {
+            color: #8B8B8B;
+            font-size: 16px;
+            font-family: Poppins;
+            letter-spacing: 1.6px;
+        }
+
+        .section-beauty_right_4 {
+            padding-top: 40px;
+            color: #091156;
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 600;
+            letter-spacing: 1.6px;
+            display: flex;
+
+            svg{
+                padding-left: 5px;
+            }
+        }
+
+    }
+
 }
