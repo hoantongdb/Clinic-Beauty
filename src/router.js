@@ -5,6 +5,9 @@ import MasterLayout from "./pages/users/theme/masterLayout";
 import ProfilePage from "./pages/users/profilePage";
 import AboutPage from "pages/users/aboutPage";
 import ServicePage from "pages/users/servicePage";
+import GalleryPage from "pages/users/galleryPage";
+import TeamPage from "pages/users/teamPage";
+import BlogPage from "pages/users/blogPage";
 //import MasterLayout from "./pages/users/theme/masterLayout";
 
 
@@ -25,6 +28,20 @@ const renderUserRouter = () => {
         {
             path: ROUTERS.USER3.SERVICE,
             component: <ServicePage/>,
+        },
+
+        {
+            path: ROUTERS.USER4.GALLERY,
+            component: <GalleryPage/>,
+        },
+
+        {
+            path: ROUTERS.USER5.TEAM,
+            component: <TeamPage/>,
+        },
+        {
+            path: ROUTERS.USER6.BLOG,
+            component: <BlogPage/>,
         },
 
     ];

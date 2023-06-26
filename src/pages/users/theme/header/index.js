@@ -5,31 +5,31 @@ import "./style.scss"
 // import { fomatter } from "utils/fomatter";
 <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet"></link>
 const Header = () => {
-    
+
     return (
-        <div  className="header">
-        <div className="logo">
-            Beautice
+        <div className="header">
+            <div className="logo">
+                Beautice
+            </div>
+            <div className="nav">
+                <div>Home
+                </div>
+                <div>
+                    About
+                </div>
+                <div>
+                    Service
+                </div>
+                <div>
+                    Gallery
+                </div>
+                <div>
+                    Blog
+                </div>
+            </div>
+            <button className="btn">Contact</button>
+
         </div>
-        <div className="nav">
-            <div>Home
-            </div>
-            <div>
-                About
-            </div>
-            <div>
-                Service
-            </div>
-            <div>
-                Gallery
-            </div>
-            <div>
-                Blog
-            </div>
-        </div>
-        <button className="btn">Contact</button>
-        
-  </div>
     );
 
 

@@ -88,7 +88,6 @@ const HomePage = () => {
             <div class="contact">
                 <div class="contact-left">
                     <img src={contactimg} alt=""/>
-
                 </div>
                 <div class="contact-right">
                     <div class="con-title">
