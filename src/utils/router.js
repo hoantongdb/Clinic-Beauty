@@ -29,4 +29,10 @@ export const ROUTERS = {
         BLOG: "blog",
 
     },
+
+    USER7: {
+        HOME: "",
+        CONTACT: "contact",
+
+    },
 };

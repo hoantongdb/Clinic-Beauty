@@ -14,6 +14,7 @@ import imgslide from './img/slide.png';
 import aleft from './img/arrow-left.svg';
 import aright from './img/arrow-right.svg';
 import star from './img/star.svg';
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
 const TeamPage = () => {
     return (
         <div>

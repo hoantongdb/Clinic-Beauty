@@ -8,6 +8,7 @@ import ServicePage from "pages/users/servicePage";
 import GalleryPage from "pages/users/galleryPage";
 import TeamPage from "pages/users/teamPage";
 import BlogPage from "pages/users/blogPage";
+import ContactPage from "pages/users/contactPage";
 //import MasterLayout from "./pages/users/theme/masterLayout";
 
 
@@ -42,6 +43,10 @@ const renderUserRouter = () => {
         {
             path: ROUTERS.USER6.BLOG,
             component: <BlogPage/>,
+        },
+        {
+            path: ROUTERS.USER7.CONTACT,
+            component: <ContactPage/>,
         },
 
     ];

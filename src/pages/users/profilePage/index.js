@@ -44,7 +44,7 @@ const ProfilePage = () => {
             </div>
             <div className="aboutus">
                 <div className="aboutus-img">
-                    <img src={imgus} />
+                    <img src={imgus} alt="" />
                 </div>
                 <div className="aboutus-title">
                     <div className="aboutus-title_1">
